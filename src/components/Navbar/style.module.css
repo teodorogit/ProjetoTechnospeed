@@ -1,0 +1,95 @@
+.container,
+.div_status {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    justify-content: space-around;
+    border-bottom: 1px solid #2222227b;
+    padding: 12px 0px 16px 0px;
+}
+
+.div_status {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(237, 237, 237, 0.47);
+    box-shadow: 0px 10px 15px rgba(189, 194, 189, 0.091);
+    padding: 0px 24px;
+    height: 30px;
+    width: 30%;
+}
+.div_status div {
+    padding: 0px 16px;
+}
+.div_status p,
+.div_status div {
+    color: #eee;
+    font-family: 'VisbyRoundy', sans-serif;
+}
+
+/* STATUS  DE APIS*/
+.ball_offline,
+.ball_online,
+.ball_lentidao {
+    position: relative;
+}
+
+.ball_offline::after {
+    content: ' ';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(248, 126, 126);
+    border-radius: 50px;
+    left: 0px;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.ball_online::before {
+    content: ' ';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(155, 248, 126);
+    border-radius: 50px;
+    left: 0px;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.ball_lentidao::before {
+    content: ' ';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(248, 248, 126);
+    border-radius: 50px;
+    left: 0px;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.btn_suporte,
+.btn_servicos {
+    padding: 8px 28px;
+    text-decoration: none;
+    font-family: 'VisbyRoundy', sans-serif;
+}
+
+.btn_suporte {
+    border-bottom: 1px solid rgb(234, 229, 229);
+    color: #eee;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn_servicos {
+    background-color: rgba(90, 172, 239, 0.429);
+    border: 1px solid rgb(91, 91, 246);
+    color: #eee;
+
+    border-radius: 3px;
+}

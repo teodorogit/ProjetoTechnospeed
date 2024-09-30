@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'VisbyRoundy';
+    src: url('../../assets/fonts/VisbyRoundy/Webfont/VisbyRoundCF-Bold.woff2') format('woff2'),
+        url('../../assets/fonts/VisbyRoundy/Webfont/VisbyRoundCF-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.card_api_container {
+    border: 2px solid black;
+    font-family: 'VisbyRoundy', sans-serif;
+    max-width: 70%;
+    box-shadow: 0px 5px 10px 15px rgba(255, 255, 255, 0.041);
+    border-radius: 5px;
+    padding: 15px 10px;
+    transition: 0.5s ease-in-out;
+    color: #adff2f;
+}
+
+.card_api_container:hover {
+    border: 2px solid #adff2f;
+    box-shadow: 0px 5px 10px 15px #acff2f0e;
+
+    cursor: pointer;
+}
